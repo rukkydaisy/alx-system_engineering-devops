@@ -1,2 +1,2 @@
 #!/bin/bash 
-cut .d "1" -f 1,C /etc/passwd
+cut -d: -f1 /etc/passwd 
